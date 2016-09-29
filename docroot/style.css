@@ -1,0 +1,12 @@
+html {
+  background: white;
+  font-family: sans-serif;
+}
+
+dl#userinfo dt {
+  display: inline;
+}
+
+dl#userinfo dd {
+  display: inline;
+}

@@ -1,0 +1,16 @@
+rpgnode
+
+This was a barely developed skeleton from an attempt to implement a multiplayer
+RPG using socket.io. I never got very far on it before abandoning it.
+
+I'm adding it to Github just to have it somewhere.
+
+Like nodemoo, it's abandoned at this point.
+
+This code is from 2011, so no idea if it will still run in a modern node.js.
+
+Given how unfinished this is, I'm not even going to bother adding a license
+to it. It's public domain, and not much better than the hello world app from
+socket.io.
+
+Cheers.

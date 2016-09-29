@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>
+RPGnode
+</title>
+<link rel="stylesheet" href="/style.css"/>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+var user = io.connect('http://localhost:8080/rpguser');
+</script>
+</head>
+<body>
+<h1>RPGnode</h1>
+<dl id="userinfo">
+<dt>Name</dd>
+<dd><input type="text" id="user_name" onchange="user.emit('setname', this.value)" /></dd>
+</dl>
+</body>
+</html>
